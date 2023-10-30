@@ -1,0 +1,529 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;  Vertically center the content */
+  align-items: center;
+  /*overflow: hidden;*/
+  color: white;
+  padding: 0;
+  background-color: black;
+}
+
+header {
+  color: white;
+  border-bottom: 1px solid #ca0000;
+  width: 90%;
+  display: flex;
+  flex-direction: column; /* Center header content vertically */
+  text-align: center;
+  z-index: 2;
+  padding: 10px;
+  background-color: black;
+  margin-top: -10px;
+}
+
+.links a {
+  color: white; /* Set the text color to white */
+  text-decoration: none; /* Remove underline */
+}
+.link {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 10px;
+  margin: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.heading1 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 100px rgba(255, 4, 4, 0.25);
+  font-family: "Merienda", cursive;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 900px;
+  height: 139px;
+  top: 150px;
+  left: 94px;
+  margin-top: -15px;
+}
+.heading2 {
+  width: 382px;
+  height: 64px;
+  margin-top: -100px;
+  margin-left: -800px;
+  font-family: "Kaushan Script";
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 93px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+.heading2::before,
+.heading2::after {
+  content: "";
+  position: absolute;
+  top: 80%;
+  width: 30%;
+  border-top: 1px solid red;
+}
+.heading2::before {
+  left: 0;
+  transform: translateY(-10%);
+  margin-right: 5px;
+}
+.heading2::after {
+  right: 0;
+  transform: translateY(-10%);
+  margin-left: 5px;
+}
+.heading3 {
+  width: 382px;
+  height: 64px;
+  margin-top: -100px;
+  margin-left: 800px;
+  font-family: "Kaushan Script";
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 93px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  position: relative;
+}
+.heading3::before,
+.heading3::after {
+  content: "";
+  position: absolute;
+  top: 80%;
+  width: 20%;
+  border-top: 1px solid red;
+}
+.heading3::before {
+  left: 0;
+  transform: translateY(-10%);
+  margin-right: 5px;
+}
+.heading3::after {
+  right: 0;
+  transform: translateY(-10%);
+  margin-left: 5px;
+}
+.ellipse-container {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* Create an ellipse shape */
+  margin-left: -1000px;
+  margin-right: 20px;
+  padding: 15px;
+  flex-shrink: 0;
+}
+.ellipse-container p {
+  font-family: "Lily Script One", cursive;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0em;
+  text-align: center;
+  position: absolute;
+  margin-right: -400px;
+}
+.photo1 {
+  width: 100%;
+  height: 100%;
+  background-image: url("masalapeanuts.jpg"); /* Replace 'your-image.jpg' with your image file */
+  background-size: cover;
+  filter: drop-shadow(0px 4px 50px rgba(255, 255, 255, 0.25));
+  background-position: center;
+  border-radius: 50%; /* Maintain the ellipse shape */
+  flex-shrink: 0; /* Prevent image from shrinking */
+}
+.photo2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("corncheeseballs.jpg"); /* Replace 'your-image.jpg' with your image file */
+  background-size: cover;
+  filter: drop-shadow(0px 4px 50px rgba(255, 255, 255, 0.25));
+  background-position: center;
+  border-radius: 50%; /* Maintain the ellipse shape */
+  flex-shrink: 0;
+}
+.photo3 {
+  width: 100%;
+  height: 100%;
+  background-image: url("manchurian.jpg"); /* Replace 'your-image.jpg' with your image file */
+  background-size: cover;
+  filter: drop-shadow(0px 4px 50px rgba(255, 255, 255, 0.25));
+  background-position: center;
+  border-radius: 50%; /* Maintain the ellipse shape */
+  flex-shrink: 0;
+}
+.photo4 {
+  width: 100%;
+  height: 100%;
+  background-image: url("kebabs.jpg"); /* Replace 'your-image.jpg' with your image file */
+  background-size: cover;
+  filter: drop-shadow(0px 4px 50px rgba(255, 255, 255, 0.25));
+  background-position: center;
+  border-radius: 50%; /* Maintain the ellipse shape */
+  flex-shrink: 0;
+}
+
+.photo5 {
+  width: 100%;
+  height: 100%;
+  background-image: url("nuggets.jpg"); /* Replace 'your-image.jpg' with your image file */
+  background-size: cover;
+  filter: drop-shadow(0px 4px 50px rgba(255, 255, 255, 0.25));
+  background-position: center;
+  border-radius: 50%; /* Maintain the ellipse shape */
+  flex-shrink: 0;
+}
+.photo6 {
+  width: 100%;
+  height: 100%;
+  background-image: url("cocktailsamosa.jpg"); /* Replace 'your-image.jpg' with your image file */
+  background-size: cover;
+  filter: drop-shadow(0px 4px 50px rgba(255, 255, 255, 0.25));
+  background-position: center;
+  border-radius: 50%; /* Maintain the ellipse shape */
+  flex-shrink: 0;
+}
+.photo7 {
+  width: 100%;
+  height: 100%;
+  background-image: url("redpasta.jpg"); /* Replace 'your-image.jpg' with your image file */
+  background-size: cover;
+  filter: drop-shadow(0px 4px 50px rgba(255, 255, 255, 0.25));
+  background-position: center;
+  border-radius: 50%; /* Maintain the ellipse shape */
+  flex-shrink: 0;
+}
+.photo8 {
+  width: 100%;
+  height: 100%;
+  background-image: url("whitesaucepasta.jpg"); /* Replace 'your-image.jpg' with your image file */
+  background-size: cover;
+  filter: drop-shadow(0px 4px 50px rgba(255, 255, 255, 0.25));
+  background-position: center;
+  border-radius: 50%; /* Maintain the ellipse shape */
+  flex-shrink: 0;
+}
+.photo9 {
+  width: 100%;
+  height: 100%;
+  background-image: url("nachos.jpg"); /* Replace 'your-image.jpg' with your image file */
+  background-size: cover;
+  filter: drop-shadow(0px 4px 50px rgba(255, 255, 255, 0.25));
+  background-position: center;
+  border-radius: 50%; /* Maintain the ellipse shape */
+  flex-shrink: 0;
+}
+.heading4 {
+  width: 382px;
+  height: 64px;
+  margin-top: -10px;
+  margin-left: -800px;
+  font-family: "Kaushan Script";
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 93px;
+  letter-spacing: 0em;
+  text-align: center;
+  position: relative;
+}
+
+.heading4::before,
+.heading4::after {
+  content: "";
+  position: absolute;
+  top: 80%;
+  width: 20%;
+  border-top: 1px solid red;
+}
+
+.heading4::before {
+  left: 0;
+  transform: translateY(-10%);
+  margin-right: 5px;
+}
+
+.heading4::after {
+  right: 0;
+  transform: translateY(-10%);
+  margin-left: 5px;
+}
+.photo10 {
+  width: 100%;
+  height: 100%;
+  background-image: url("garlicnaan.jpg"); /* Replace 'your-image.jpg' with your image file */
+  background-size: cover;
+  filter: drop-shadow(0px 4px 50px rgba(255, 255, 255, 0.25));
+  background-position: center;
+  border-radius: 50%; /* Maintain the ellipse shape */
+  flex-shrink: 0; /* Prevent image from shrinking */
+}
+.photo11 {
+  width: 100%;
+  height: 100%;
+  background-image: url("butternaan.jpg"); /* Replace 'your-image.jpg' with your image file */
+  background-size: cover;
+  filter: drop-shadow(0px 4px 50px rgba(255, 255, 255, 0.25));
+  background-position: center;
+  border-radius: 50%; /* Maintain the ellipse shape */
+  flex-shrink: 0; /* Prevent image from shrinking */
+}
+.photo12 {
+  width: 100%;
+  height: 100%;
+  background-image: url("stuffednaan.jpg"); /* Replace 'your-image.jpg' with your image file */
+  background-size: cover;
+  filter: drop-shadow(0px 4px 50px rgba(255, 255, 255, 0.25));
+  background-position: center;
+  border-radius: 50%; /* Maintain the ellipse shape */
+  flex-shrink: 0; /* Prevent image from shrinking */
+}
+.photo13 {
+  width: 100%;
+  height: 100%;
+  background-image: url("wholewheatbread.jpg"); /* Replace 'your-image.jpg' with your image file */
+  background-size: cover;
+  filter: drop-shadow(0px 4px 50px rgba(255, 255, 255, 0.25));
+  background-position: center;
+  border-radius: 50%; /* Maintain the ellipse shape */
+  flex-shrink: 0; /* Prevent image from shrinking */
+}
+.photo14 {
+  width: 100%;
+  height: 100%;
+  background-image: url("wholewheatbread.jpg"); /* Replace 'your-image.jpg' with your image file */
+  background-size: cover;
+  filter: drop-shadow(0px 4px 50px rgba(255, 255, 255, 0.25));
+  background-position: center;
+  border-radius: 50%; /* Maintain the ellipse shape */
+  flex-shrink: 0; /* Prevent image from shrinking */
+}
+.ellipse-container2 {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* Create an ellipse shape */
+  margin-left: 520px; /* Adjust the margin to separate the two containers */
+  padding: 15px;
+  flex-shrink: 0;
+}
+.ellipse-container2 p {
+  font-family: "Lily Script One", cursive;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  margin-right: -400px;
+  margin-top: -3420px;
+}
+.ellipse-container2 p1 {
+  font-family: "Lily Script One", cursive;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0em;
+  text-align: right;
+  position: absolute;
+  margin-right: -400px;
+  margin-top: 20px;
+}
+.photo15,
+.photo16,
+.photo17,
+.photo18,
+.photo19,
+.photo20,
+.photo21 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%; /* Maintain the ellipse shape */
+  flex-shrink: 0; /* Prevent image from shrinking */
+  filter: drop-shadow(0px 4px 50px rgba(255, 255, 255, 0.25));
+  margin-top: -3420px;
+}
+
+.photo15 {
+  background-image: url("friedrice.jpg"); /* Replace 'friedrice.jpg' with your image file */
+}
+
+.photo16 {
+  background-image: url("butterchicken.jpg"); /* Replace 'butterchicken.jpg' with your image file */
+}
+
+.photo17 {
+  background-image: url("chickenplatter.jpg"); /* Replace 'chickenplatter.jpg' with your image file */
+}
+
+.photo18 {
+  background-image: url("paneer.jpg"); /* Replace 'paneer.jpg' with your image file */
+}
+
+.photo19 {
+  background-image: url("mixveg.jpg"); /* Replace 'mixveg.jpg' with your image file */
+}
+
+.photo20 {
+  background-image: url("dalmakhani.jpg"); /* Replace 'dalmakhani.jpg' with your image file */
+}
+
+.photo21 {
+  background-image: url("vegplatter.jpg"); /* Replace 'vegplatter.jpg' with your image file */
+}
+.heading5 {
+  width: 382px;
+  height: 64px;
+  font-family: "Kaushan Script";
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 93px;
+  letter-spacing: 0em;
+  text-align: center;
+  position: relative;
+  margin-top: -1700px;
+  margin-left: 800px;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 80%;
+    width: 20%;
+    border-top: 1px solid red;
+  }
+  &::before {
+    left: 0;
+    transform: translateY(-10%);
+    margin-right: 5px;
+  }
+  &::after {
+    right: 0;
+    transform: translateY(-10%);
+    margin-left: 5px;
+  }
+}
+
+.photo22,
+.photo23,
+.photo24,
+.photo25,
+.photo26,
+.photo27,
+.photo28,
+.photo29,
+.photo30,
+.photo31,
+.photo32 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%; /* Maintain the ellipse shape */
+  flex-shrink: 0; /* Prevent image from shrinking */
+  filter: drop-shadow(0px 4px 50px rgba(255, 255, 255, 0.25));
+  margin-top: 20px;
+}
+
+.photo22 {
+  background-image: url("colddrink.jpg"); /* Replace 'friedrice.jpg' with your image file */
+}
+
+.photo23 {
+  background-image: url("virginmojito.jpg"); /* Replace 'butterchicken.jpg' with your image file */
+}
+
+.photo24 {
+  background-image: url("bluelogoon.jpg"); /* Replace 'chickenplatter.jpg' with your image file */
+}
+
+.photo25 {
+  background-image: url("strawberryshake.jpg"); /* Replace 'paneer.jpg' with your image file */
+}
+
+.photo26 {
+  background-image: url("chocollateshake.jpg"); /* Replace 'mixveg.jpg' with your image file */
+}
+
+.photo27 {
+  background-image: url("blueberry.jpg"); /* Replace 'dalmakhani.jpg' with your image file */
+}
+
+.photo28 {
+  background-image: url("expresso\ martini.jpg"); /* Replace 'vegplatter.jpg' with your image file */
+}
+.photo29 {
+  background-image: url("bloodymaria.jpg"); /* Replace 'vegplatter.jpg' with your image file */
+}
+.photo30 {
+  background-image: url("gin\ and\ tonic.jpg"); /* Replace 'vegplatter.jpg' with your image file */
+}
+.photo31 {
+  background-image: url("frozen\ margarita.jpeg"); /* Replace 'vegplatter.jpg' with your image file */
+}
+.photo32 {
+  background-image: url("lemon martini.jpg"); /* Replace 'vegplatter.jpg' with your image file */
+}
+.red-button {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  font-family: Karma;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  z-index: 1;
+  width: 200px;
+  height: 20px;
+  top: 900px;
+  left: 600px;
+  margin-top: 30px;
+}
+.red-button:hover {
+  background-color: darkred; /* Change the background color on hover */
+}
+.red-button:active {
+  transform: scale(0.95); /* Scale down the button when clicked */
+  transition: transform 0.2s; /* Add a smooth transition effect */
+}
+.animate-link:hover {
+  color: red; /* Change the text color on hover */
+}

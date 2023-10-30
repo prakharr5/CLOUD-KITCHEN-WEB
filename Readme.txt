@@ -1,0 +1,1 @@
+Cafe-Serenity-Bites is a Cloud-Kitchen Website. This is a front-end web development project. We have used html, css, javascript and gsap in this project. The contributors of this project are Prakhar Kumar Srivastava, Utkarsh Tonk and Nishtha Jain.
