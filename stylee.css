@@ -63,7 +63,7 @@ header {
   width: 900px;
   height: 139px;
   top: 150px;
-  left: 94px;
+  left: 320px;
   margin-top: -15px;
 }
 .heading2 {
@@ -144,7 +144,7 @@ header {
 }
 .ellipse-container p {
   font-family: "Lily Script One", cursive;
-  font-size: 26px;
+  font-size: 21px;
   font-weight: 300;
   line-height: normal;
   letter-spacing: 0em;
@@ -340,7 +340,7 @@ header {
 }
 .ellipse-container2 p {
   font-family: "Lily Script One", cursive;
-  font-size: 26px;
+  font-size: 21px;
   font-weight: 300;
   line-height: normal;
   letter-spacing: 0em;
@@ -351,7 +351,7 @@ header {
 }
 .ellipse-container2 p1 {
   font-family: "Lily Script One", cursive;
-  font-size: 26px;
+  font-size: 21px;
   font-weight: 300;
   line-height: normal;
   letter-spacing: 0em;
@@ -526,4 +526,75 @@ header {
 }
 .animate-link:hover {
   color: red; /* Change the text color on hover */
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+.button-container-right {
+  margin-top: -3420px;
+  /* Adjusted margin-top for the right-side buttons */
+}
+.button-container-bottom {
+  margin-top: 20px;
+}
+
+.increment-button {
+  background-color: darkred;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 5px 10px;
+  cursor: pointer;
+  /* margin-top: 10px; */
+  margin: 10px 15px;
+  position: absolute;
+}
+.decrement-button {
+  background-color: darkred;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 5px 10px;
+  cursor: pointer;
+  /* margin-top: 10px; */
+  margin: 10px -20px;
+  position: absolute;
+}
+
+.increment-button:hover,
+.decrement-button:hover {
+  background-color: red;
+}
+.counting-box {
+  display: inline-block;
+  width: 5px;
+  text-align: center;
+  margin: 0 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+/********************************************************************************************************/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: darkred;
+  border-radius: 10px;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.3;
 }

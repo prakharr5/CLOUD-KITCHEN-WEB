@@ -270,20 +270,6 @@ section h3 {
   margin-top: 2%;
 }
 /******************************************************/
-.imghiw {
-  position: fixed;
-  top: 0;
-  display: flex;
-  width: 100%;
-  z-index: 1;
-  align-items: center;
-  overflow: hidden;
-}
-.imghiw img {
-  width: 100%;
-  height: 1000px;
-  flex-shrink: 0;
-}
 
 .ellipse17 {
   width: 150px;
@@ -445,4 +431,36 @@ section h3 {
   margin-left: 20px;
   margin-right: 40px;
   font-size: 20px;
+}
+/*......................................................................*/
+/* CSS in stylee.css */
+.animate-slide {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+/*********************************************************************/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: darkred;
+  border-radius: 10px;
+}
+/***************************************************************/
+#myVideo2 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.3;
 }
