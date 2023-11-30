@@ -373,7 +373,7 @@ section h3 {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-
+  position: absolute;
   padding: 10px 20px;
   position: relative;
   border-radius: 50px;
